@@ -11,9 +11,57 @@ h1 {
     font-size: xx-large;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .text-center {
     text-align: center;
     font-size: x-large;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+form {
+    background-color: rgb(48, 48, 241);
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    width: 50%;
+    margin-right: 30rem;
+    color: white;
+}
+
+button.submit {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3rem;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#name-label {
+    margin-bottom: 0.5rem;
+}
+
+#email-label {
+    margin-bottom: 0.5rem;
+}
+
+#number-label {
+    margin-bottom: 0.5rem;
+}
+
+#head3 {
+    margin-bottom: 0.5rem;
+}
+
+.head1 {
+    margin-bottom: 0.5rem;
 }
