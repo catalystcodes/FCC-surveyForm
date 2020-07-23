@@ -11,11 +11,47 @@
 </head>
 
 <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+    <h1 id="title" class="text-center"><b>Assassin form</b></h1>
     <i> <p id="description" class="discription text-center">Thank you for taking the time to help us improve the platform</p></i>
     <form id="survey-form">
-        Name: <input type="text" name="name" id="name" required><br> Email: <input type="email" name="email" id="email" required><br> Number: <input type="number" name="number" id="number" min="-1" max="9" required><br>
+        <label id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Type ur name" required><br>
+        <label id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder="your email" required><br>
+        <label id="number-label">Number</label>
+        <input type="number" name="number" id="number" min="-1" max="9" placeholder="012-345-6789" required><br>
+
+
+        <select name="" id="dropdown">
+            <option value="high">high</option>
+            <option value="best">best</option>
+            <option value="bad">bad</option>
+        </select>
+
+
+        <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br>
+        <input type="checkbox" id="The Try-Try-Try Again Assassin" name="The Try-Try-Try Again Assassin" value="killer">
+        <label for="The Try-Try-Try Again Assassin"> a killer</label><br>
+        <input type="checkbox" id="The Recon Assassin" name="The Recon Assassin" value="Mafia">
+        <label for="The Recon Assassin"> Mafia</label><br>
+        <input type="checkbox" id="The All-rounder" name="The All-rounder" value="dilettantes">
+        <label for="The All-rounder"> dilettantes</label><br>
+
+
+        <textarea placeholder="more comment"> </textarea>
+        <input type="submit" id="submit">
+
+
+
+
 
 
 
@@ -27,6 +63,7 @@
 
 
 
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
 
